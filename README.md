@@ -1,1 +1,1 @@
-# test-bot
+# checkio
