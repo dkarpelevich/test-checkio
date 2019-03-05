@@ -10,33 +10,46 @@ def dfs_paths(graph, start, goal):
 
 
 def prepare_graph(matrix):
-    print(len(matrix))
     graph = {}
     for i in range(len(matrix)):
         list_in_set = []
         for j in range(len(matrix[i])):
             if matrix[i][j] == 1:
                 list_in_set.append(j)
+            if matrix[i][i] == 1 and i in list_in_set:
+                list_in_set.remove(i)
         graph.update({i: set(list_in_set)})
-    print(graph)
     return graph
 
 
 def prepare_weights(matrix):
+    weights_dict = {}
+    for i in range(len(matrix)):
+        weights_dict.update({i: matrix[i][i]})
+    return weights_dict
 
-    pass
+
+def min_node_value(graph_list, weights):
+    min_value = [0 for _ in range(len(graph_list))]
+    for i in range(len(graph_list)):
+        for j in graph_list[i]:
+            min_value[i] += weights[j]
+    return min(min_value)
 
 
-matrix = [[0, 1, 0, 1, 0, 1],
-          [1, 8, 1, 0, 0, 0],
-          [0, 1, 2, 0, 0, 1],
-          [1, 0, 0, 1, 1, 0],
-          [0, 0, 0, 1, 3, 1],
-          [1, 0, 1, 0, 1, 2]]
-graph = prepare_graph(matrix)
-print(list(dfs_paths(graph, 0, 2)))
+def capture(matrix):
+    graph = prepare_graph(matrix)
+    print('graph', graph)
+    weights = prepare_weights(matrix)
+    list_of_paths = []
+    list_of_max_times = []
+    for i in range(1, len(weights)):
+        list_of_paths.append(list(dfs_paths(graph, 0, i)))
+    for node in list_of_paths:
+        list_of_max_times.append(min_node_value(node, weights))
+    return max(list_of_max_times)
 
-'''
+
 if __name__ == '__main__':
     assert capture([[0, 1, 0, 1, 0, 1],
                     [1, 8, 1, 0, 0, 0],
@@ -44,16 +57,14 @@ if __name__ == '__main__':
                     [1, 0, 0, 1, 1, 0],
                     [0, 0, 0, 1, 3, 1],
                     [1, 0, 1, 0, 1, 2]]) == 8, "Base example"
-'''
 
-"""
     assert capture([[0, 1, 0, 1, 0, 1],
                     [1, 1, 1, 0, 0, 0],
                     [0, 1, 2, 0, 0, 1],
                     [1, 0, 0, 1, 1, 0],
                     [0, 0, 0, 1, 3, 1],
                     [1, 0, 1, 0, 1, 2]]) == 4, "Low security"
+
     assert capture([[0, 1, 1],
                     [1, 9, 1],
                     [1, 1, 9]]) == 9, "Small"
-"""
