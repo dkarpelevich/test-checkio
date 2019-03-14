@@ -1,3 +1,4 @@
+# https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/
 def dfs_paths(graph, start, goal):
     stack = [(start, [start])]
     while stack:
