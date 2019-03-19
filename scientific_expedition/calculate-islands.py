@@ -1,4 +1,5 @@
 from typing import List
+from graph_module import graph_methods as gm
 
 
 def decorator(land_map, i, j):
@@ -30,22 +31,12 @@ def prepare_graph(land_map: List[List[int]]) -> dict:
                 dict_of_cells.update({(i, j): one_cell})
     return dict_of_cells
 
-# https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/
-def dfs(graph, start):
-    visited, stack = set(), [start]
-    while stack:
-        vertex = stack.pop()
-        if vertex not in visited:
-            visited.add(vertex)
-            stack.extend(graph[vertex] - visited)
-    return visited
-
 
 def checkio(land_map: List[List[int]]) -> List[int]:
     graph = prepare_graph(land_map)
     list_of_squares = []
     for i in graph:
-        cell_path = dfs(graph, i)
+        cell_path = gm.dfs(graph, i)
         if cell_path not in list_of_squares:
             list_of_squares.append(cell_path)
     return sorted([len(x) for x in list_of_squares])

@@ -5,7 +5,8 @@ graph = {'A': {'B', 'C'},
          'E': {'B', 'F'},
          'F': set(['C', 'E']),
          'G': set(['H']),
-         'H': set(['G'])}
+         'H': set(['G']),
+         'I': set()}
 
 
 def dfs(graph, start):
@@ -18,4 +19,4 @@ def dfs(graph, start):
     return visited
 
 
-print(dfs(graph, 'G'))
+print(dfs(graph, 'I'))

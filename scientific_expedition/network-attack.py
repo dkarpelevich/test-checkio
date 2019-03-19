@@ -1,13 +1,5 @@
 # https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/
-def dfs_paths(graph, start, goal):
-    stack = [(start, [start])]
-    while stack:
-        (vertex, path) = stack.pop()
-        for next in graph[vertex] - set(path):
-            if next == goal:
-                yield path + [next]
-            else:
-                stack.append((next, path + [next]))
+from graph_module import graph_methods as gm
 
 
 def prepare_graph(matrix):
@@ -40,12 +32,11 @@ def min_node_value(graph_list, weights):
 
 def capture(matrix):
     graph = prepare_graph(matrix)
-    print('graph', graph)
     weights = prepare_weights(matrix)
     list_of_paths = []
     list_of_max_times = []
     for i in range(1, len(weights)):
-        list_of_paths.append(list(dfs_paths(graph, 0, i)))
+        list_of_paths.append(list(gm.dfs_paths(graph, 0, i)))
     for node in list_of_paths:
         list_of_max_times.append(min_node_value(node, weights))
     return max(list_of_max_times)
