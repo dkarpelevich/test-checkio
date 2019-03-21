@@ -26,20 +26,15 @@ class Party(Observable):
         super().__init__()
         self.place = place
 
-    def getter(self):
-        print(self.place)
 
-class Friend(Party):
-    def __init__(self, name, place):
-        super().__init__(place)
+class Friend:
+    def __init__(self, name):
         self.name = name
 
     def show_invite(self):
-        # print(self.place.person_place_dict)
-        # self.place.getter()
         try:
-            print(str(self.place.place) + ': ' + str(self.place.person_place_dict[self]))
-            return str(self.place.place) + ': ' + str(self.place.person_place_dict[self])
+            print(str(party.place) + ': ' + str(party.person_place_dict[self]))
+            return str(party.place) + ': ' + str(party.person_place_dict[self])
         except KeyError:
             print('No party...')
             return 'No party...'
@@ -47,10 +42,10 @@ class Friend(Party):
 
 if __name__ == '__main__':
     party = Party("Midnight Pub")
-    nick = Friend("Nick", party)
-    john = Friend("John", party)
-    lucy = Friend("Lucy", party)
-    chuck = Friend("Chuck", party)
+    nick = Friend("Nick")
+    john = Friend("John")
+    lucy = Friend("Lucy")
+    chuck = Friend("Chuck")
 
     party.add_friend(nick)
     party.add_friend(john)
