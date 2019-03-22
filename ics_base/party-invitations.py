@@ -1,46 +1,34 @@
-from abc import ABC
-
-
-class Observable(ABC):
-
-    def __init__(self):
-        self.observers = []
-        self.person_place_dict = {}
-
-    def add_friend(self, observer) -> None:
-        self.observers.append(observer)
-
-    def del_friend(self, observer) -> None:
-        try:
-            self.observers.remove(observer)
-        except ValueError:
-            print('There is no such person invited')
-
-    def send_invites(self, message: str) -> None:
-        for observer in self.observers:
-            self.person_place_dict.update({observer: message})
-
-
-class Party(Observable):
-    def __init__(self, place):
-        super().__init__()
-        self.place = place
-
-
 class Friend:
     def __init__(self, name):
         self.name = name
+        self.message = 'No party...'
+
+    def invite(self, message):
+        self.message = message
 
     def show_invite(self):
-        try:
-            print(str(party.place) + ': ' + str(party.person_place_dict[self]))
-            return str(party.place) + ': ' + str(party.person_place_dict[self])
-        except KeyError:
-            print('No party...')
-            return 'No party...'
+        return self.message
+
+
+class Party:
+    def __init__(self, place):
+        self.place = place
+        self.friends = []
+
+    def add_friend(self, friend):
+        self.friends.append(friend)
+
+    def del_friend(self, friend):
+        self.friends.remove(friend)
+
+    def send_invites(self, date):
+        for friend in self.friends:
+            friend.invite(f'{self.place}: {date}')
 
 
 if __name__ == '__main__':
+    # These "asserts" using only for self-checking and not necessary for auto-testing
+
     party = Party("Midnight Pub")
     nick = Friend("Nick")
     john = Friend("John")
