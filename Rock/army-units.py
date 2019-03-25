@@ -1,5 +1,3 @@
-from abc import ABC, abstractmethod
-
 class Unit:
     def __init__(self, type_unit, army_type, name):
         self.type_unit = type_unit
@@ -29,57 +27,33 @@ class Archer(Unit):
         self.specialization = 'archer'
 
 
-class Army(ABC):
+class Army:
     def __init__(self):
         self.army_type = 'default_army_type'
+        self.type_unit_dict = {}
 
-    @abstractmethod
     def train_swordsman(self, name):
-        pass
+        return Swordsman(self.type_unit_dict['swordsman'], self.army_type, name)
 
-    @abstractmethod
     def train_lancer(self, name):
-        pass
+        return Lancer(self.type_unit_dict['lancer'], self.army_type, name)
 
-    @abstractmethod
     def train_archer(self, name):
-        pass
+        return Archer(self.type_unit_dict['archer'], self.army_type, name)
 
 
 class EuropeanArmy(Army):
     def __init__(self):
         super().__init__()
         self.army_type = 'European'
-
-    def train_swordsman(self, name):
-        type_unit = 'Knight'
-        return Swordsman(type_unit, self.army_type, name)
-
-    def train_lancer(self, name):
-        type_unit = 'Raubritter'
-        return Lancer(type_unit, self.army_type, name)
-
-    def train_archer(self, name):
-        type_unit = 'Ranger'
-        return Archer(type_unit, self.army_type, name)
+        self.type_unit_dict = {'swordsman': 'Knight', 'lancer': 'Raubritter', 'archer': 'Ranger'}
 
 
 class AsianArmy(Army):
     def __init__(self):
         super().__init__()
         self.army_type = 'Asian'
-
-    def train_swordsman(self, name):
-        type_unit = 'Samurai'
-        return Swordsman(type_unit, self.army_type, name)
-
-    def train_lancer(self, name):
-        type_unit = 'Ronin'
-        return Lancer(type_unit, self.army_type, name)
-
-    def train_archer(self, name):
-        type_unit = 'Shinobi'
-        return Archer(type_unit, self.army_type, name)
+        self.type_unit_dict = {'swordsman': 'Samurai', 'lancer': 'Ronin', 'archer': 'Shinobi'}
 
 
 if __name__ == '__main__':
