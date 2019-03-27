@@ -5,6 +5,7 @@ VALUES = {'e': 1,  'a': 1, 'i': 1, 'o': 1, 'n': 1, 'r': 1,
           'q': 10, 'z': 10}
 
 def worth_of_words(words):
+    #return max(words, key=lambda word: sum(VALUES[c] for c in word))
     return max(words, key=lambda word: sum(map(VALUES.get, word)))
     # mvn = 0
     # mvw = ''
