@@ -23,7 +23,7 @@ class Party:
 
     def send_invites(self, date):
         for friend in self.friends:
-            friend.invite(f'{self.place}: {date}')
+            friend.invite(self.place + ': ' + date)
 
 
 if __name__ == '__main__':
