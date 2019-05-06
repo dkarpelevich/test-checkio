@@ -1,4 +1,6 @@
 from abc import abstractmethod
+MAX_TIME = 5400
+MIN_TIME = 0
 
 class MicrowaveBase:
     def __init__(self):
@@ -50,14 +52,14 @@ class RemoteControl:
     def add_time(self, time: str):
         self.__time_in_seconds = RemoteControl.convert_time_to_seconds(time)
         self.__time_on_microwave_seconds = self.__time_on_microwave_seconds + self.__time_in_seconds
-        if self.__time_on_microwave_seconds >= 5400:
-            self.__time_on_microwave_seconds = 5400
+        if self.__time_on_microwave_seconds >= MAX_TIME:
+            self.__time_on_microwave_seconds = MAX_TIME
 
     def del_time(self, time: str):
         self.__time_in_seconds = RemoteControl.convert_time_to_seconds(time)
         self.__time_on_microwave_seconds = self.__time_on_microwave_seconds - self.__time_in_seconds
-        if self.__time_on_microwave_seconds <= 0:
-            self.__time_on_microwave_seconds = 0
+        if self.__time_on_microwave_seconds <= MIN_TIME:
+            self.__time_on_microwave_seconds = MIN_TIME
 
 
 if __name__ == '__main__':
@@ -66,4 +68,4 @@ if __name__ == '__main__':
     rc_2.set_time("89:00")
     rc_2.add_time("90s")
     rc_2.add_time("20m")
-    rc_2.show_time()
+    assert rc_2.show_time() == '90:0_'
