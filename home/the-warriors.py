@@ -19,6 +19,15 @@ class Defender(Warrior):
         self.attack = 3
         self.defense = 2
 
+
+class Vampire(Warrior):
+    def __init__(self):
+        super().__init__()
+        self.health = 40
+        self.attack = 4
+        self.vampirism = 0.5
+
+
 class Rookie(Warrior):
     def __init__(self):
         super().__init__()
@@ -48,17 +57,23 @@ class Battle:
             elif army_1_unit < 0:
                 return False
 
+def fight_conditions(a, b):
+    defense = b.defense if isinstance(b, Defender) else 0
+    vampirism = a.vampirism if isinstance(a, Vampire) else 0
+    if a.attack > defense:
+        attack = a.attack - defense
+        b.health -= attack
+        a.health += int(attack * vampirism)
+
+
 def fight(unit_1, unit_2) -> bool:
     while unit_1.health > 0 and unit_2.health > 0:
-        defense = unit_2.defense if isinstance(unit_2, Defender) else 0
-        if unit_1.attack > defense:
-            unit_2.health -= (unit_1.attack - defense)
+        fight_conditions(unit_1, unit_2)
         if unit_2.health <= 0:
             unit_2.is_alive = False
             return True
-        defense = unit_1.defense if isinstance(unit_1, Defender) else 0
-        if unit_2.attack > defense:
-            unit_1.health -= (unit_2.attack - defense)
+
+        fight_conditions(unit_2, unit_1)
         if unit_1.health <= 0:
             unit_1.is_alive = False
             return False
