@@ -4,13 +4,11 @@ class Warrior:
         self.attack = 5
         self.is_alive = True if self.health > 0 else False
 
-
 class Knight(Warrior):
     def __init__(self):
         super().__init__()
         self.health = 50
         self.attack = 7
-
 
 class Defender(Warrior):
     def __init__(self):
@@ -19,7 +17,6 @@ class Defender(Warrior):
         self.attack = 3
         self.defense = 2
 
-
 class Vampire(Warrior):
     def __init__(self):
         super().__init__()
@@ -27,12 +24,27 @@ class Vampire(Warrior):
         self.attack = 4
         self.vampirism = 0.5
 
-
 class Rookie(Warrior):
     def __init__(self):
         super().__init__()
         self.health = 50
         self.attack = 1
+
+class Lancer(Warrior):
+    def __init__(self):
+        super().__init__()
+        self.health = 50
+        self.attack = 6
+
+class Healer(Warrior):
+    def __init__(self):
+        super().__init__()
+        self.health = 60
+        self.attack = 0
+        self.treatment = 2
+
+    def heal(self, unit):
+        unit.health += self.treatment
 
 class Army:
     def __init__(self):
