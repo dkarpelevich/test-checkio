@@ -2,7 +2,9 @@ def calculate_amount_of_rows(message, key):
     matrix = [[]]
     for j in range(len(str(key))):
         for i in message:
-            matrix[j] =
+
+         matrix[j] =9
+'''
 Четный ключ:
 4 + 4//2
 6
@@ -16,7 +18,7 @@ def calculate_amount_of_rows(message, key):
 Нечетный ключ, четная строка:
 3 + 3//2 + 1
 5
-
+'''
 
 '''
 0  1 2  3 4  5
