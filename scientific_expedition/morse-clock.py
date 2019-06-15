@@ -3,10 +3,7 @@ def replace(time: str):
 
 
 def short_time_format(time: str):
-    if len(time) == 1:
-        return '0' + time
-    else:
-        return time
+    return '0' + time if len(time) == 1 else time
 
 
 def format_time(format_time, time: str) -> str:
