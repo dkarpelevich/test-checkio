@@ -9,7 +9,7 @@ def checkio(text: str) -> str:
             newstr += ''
         else:
             newstr += i
-    list1: list = Counter(newstr.lower()).most_common()
+    list1 = Counter(newstr.lower()).most_common()
     for i in range(len(list1)):
         list1[i] = list(list1[i])
         list1[i][1] = list1[i][1] * (-1)
