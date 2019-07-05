@@ -5,6 +5,7 @@ SECOND_TEN = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",
 OTHER_TENS = ["twenty", "thirty", "forty", "fifty", "sixty", "seventy",
               "eighty", "ninety"]
 HUNDRED = "hundred"
+THOUSAND = "one thousand"
 
 def first_ten_representation(number: int) -> str:
     if len(str(number)) == 1:
@@ -28,7 +29,9 @@ def other_tens_representation(number: int) -> str:
 def checkio(number: int) -> str:
     breaked_number_100 = number // 100
     tens_part = number - breaked_number_100 * 100
-    if len(str(number)) == 3:
+    if len(str(number)) == 4:
+        return THOUSAND
+    elif len(str(number)) == 3:
         first_part = FIRST_TEN[breaked_number_100] + " " + HUNDRED
         if tens_part >= 10:
             second_part = other_tens_representation(tens_part)
@@ -44,6 +47,7 @@ def checkio(number: int) -> str:
 
 
 if __name__ == '__main__':
+    print(checkio(1000))
     assert checkio(12) == 'twelve', "1st example"
     assert checkio(133) == 'one hundred thirty three', "2nd example"
     assert checkio(12) == 'twelve', "3rd example"
