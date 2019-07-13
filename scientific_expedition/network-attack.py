@@ -36,7 +36,7 @@ def capture(matrix):
     list_of_paths = []
     list_of_max_times = []
     for i in range(1, len(weights)):
-        list_of_paths.append(list(gm.dfs_paths(graph, 0, i)))
+        list_of_paths.append(list(gm.Graph.dfs_paths(graph, 0, i)))
     for node in list_of_paths:
         list_of_max_times.append(min_node_value(node, weights))
     return max(list_of_max_times)

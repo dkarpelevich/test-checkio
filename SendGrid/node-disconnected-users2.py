@@ -1,4 +1,4 @@
-from graph_module import graph_methods
+from graph_module import graph_methods as gm
 
 
 def disconnected_users(net, users, source, crushes):
@@ -15,7 +15,7 @@ def disconnected_users(net, users, source, crushes):
             graph[keys] = set()
         if items & set(crushes):
             graph.update({keys: items - set(crushes)})
-    connected_users = graph_methods.dfs(graph, source)
+    connected_users = gm.Graph.dfs(graph, source)
     count = 0
     if source in crushes:
         connected_users.remove(source)

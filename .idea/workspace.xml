@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72b839d-71e2-4a29-9ab3-c461bd543ae3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ESCHER/card-game.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ESCHER/the-buttons.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ESCHER/the-stones.py" afterPath="$PROJECT_DIR$/ESCHER/the-stones.py" />
+      <change beforePath="$PROJECT_DIR$/SendGrid/node-disconnected-users2.py" afterPath="$PROJECT_DIR$/SendGrid/node-disconnected-users2.py" />
+      <change beforePath="$PROJECT_DIR$/graph_module/graph_methods.py" afterPath="$PROJECT_DIR$/graph_module/graph_methods.py" />
+      <change beforePath="$PROJECT_DIR$/scientific_expedition/calculate-islands.py" afterPath="$PROJECT_DIR$/scientific_expedition/calculate-islands.py" />
+      <change beforePath="$PROJECT_DIR$/scientific_expedition/network-attack.py" afterPath="$PROJECT_DIR$/scientific_expedition/network-attack.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,81 +19,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="the-secret-room.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ESCHER/the-secret-room.py">
+      <file leaf-file-name="graph_methods.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculate-islands.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scientific_expedition/calculate-islands.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compass-map-and-spyglass.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ESCHER/compass-map-and-spyglass.py">
+      <file leaf-file-name="the-buttons.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ESCHER/the-buttons.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="198">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="the-stone-wall.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ESCHER/the-stone-wall.py">
+      <file leaf-file-name="network-attack.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scientific_expedition/network-attack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="308">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keys-and-locks.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ESCHER/keys-and-locks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="safe-code.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ESCHER/safe-code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="treasures.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ESCHER/treasures.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="the-stones.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ESCHER/the-stones.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card-game.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ESCHER/card-game.py">
+      <file leaf-file-name="node-disconnected-users2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SendGrid/node-disconnected-users2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -125,10 +101,14 @@
       <find>[::-1]</find>
       <find>rotate</find>
       <find>sorted</find>
+      <find>dfs_paths</find>
+      <find>graph_methods</find>
+      <find>decorator</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
       <replace>anr</replace>
+      <replace>Graph.decorator</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -137,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/elementary/easy-unpack.py" />
         <option value="$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/1655717803/math.py" />
         <option value="$PROJECT_DIR$/elementary/index-power.py" />
         <option value="$PROJECT_DIR$/elementary/digits-multiplication.py" />
@@ -185,13 +163,19 @@
         <option value="$PROJECT_DIR$/ESCHER/treasures.py" />
         <option value="$PROJECT_DIR$/ESCHER/the-stones.py" />
         <option value="$PROJECT_DIR$/ESCHER/card-game.py" />
+        <option value="$PROJECT_DIR$/scientific_expedition/network-attack.py" />
+        <option value="$PROJECT_DIR$/SendGrid/node-disconnected-users2.py" />
+        <option value="$PROJECT_DIR$/scientific_expedition/calculate-islands.py" />
+        <option value="$PROJECT_DIR$/graph_module/graph_methods.py" />
+        <option value="$PROJECT_DIR$/ESCHER/the-buttons.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-4" />
-    <option name="width" value="1366" />
-    <option name="height" value="717" />
+    <option name="x" value="-1" />
+    <option name="y" value="-14" />
+    <option name="width" value="1368" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -300,7 +284,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="SearchEverywhereHistoryKey" value="matr&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/mine/skew-symmetric-matrix.py" />
+    <property name="SearchEverywhereHistoryKey" value="graph&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/graph_module/graph_methods.py&#10;matr&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/mine/skew-symmetric-matrix.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -314,7 +298,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.card-game">
+  <component name="RunManager" selected="Python.the-buttons">
+    <configuration name="calculate-islands" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scientific_expedition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test-checkio" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scientific_expedition/calculate-islands.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="card-game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,43 +335,43 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="keys-and-locks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="network-attack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ESCHER" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scientific_expedition" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ESCHER/keys-and-locks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scientific_expedition/network-attack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="safe-code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="node-disconnected-users2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ESCHER" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SendGrid" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ESCHER/safe-code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SendGrid/node-disconnected-users2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="the-stones" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="the-buttons" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -381,44 +383,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ESCHER/the-stones.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="treasures" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ESCHER" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ESCHER/treasures.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ESCHER/the-buttons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.keys-and-locks" />
-      <item index="1" class="java.lang.String" itemvalue="Python.safe-code" />
-      <item index="2" class="java.lang.String" itemvalue="Python.treasures" />
-      <item index="3" class="java.lang.String" itemvalue="Python.the-stones" />
-      <item index="4" class="java.lang.String" itemvalue="Python.card-game" />
+      <item index="0" class="java.lang.String" itemvalue="Python.card-game" />
+      <item index="1" class="java.lang.String" itemvalue="Python.calculate-islands" />
+      <item index="2" class="java.lang.String" itemvalue="Python.network-attack" />
+      <item index="3" class="java.lang.String" itemvalue="Python.node-disconnected-users2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.the-buttons" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.card-game" />
-        <item index="1" class="java.lang.String" itemvalue="Python.the-stones" />
-        <item index="2" class="java.lang.String" itemvalue="Python.treasures" />
-        <item index="3" class="java.lang.String" itemvalue="Python.safe-code" />
-        <item index="4" class="java.lang.String" itemvalue="Python.keys-and-locks" />
+        <item index="0" class="java.lang.String" itemvalue="Python.the-buttons" />
+        <item index="1" class="java.lang.String" itemvalue="Python.calculate-islands" />
+        <item index="2" class="java.lang.String" itemvalue="Python.network-attack" />
+        <item index="3" class="java.lang.String" itemvalue="Python.node-disconnected-users2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.card-game" />
       </list>
     </recent_temporary>
   </component>
@@ -646,23 +630,30 @@
       <option name="project" value="LOCAL" />
       <updated>1562437656772</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="next tasks">
+      <created>1562957656399</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1562957656399</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1368" height="728" extended-state="6" />
+    <frame x="-1" y="-14" width="1368" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21189591" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21189591" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26050422" sideWeight="0.5060423" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24033614" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24033614" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18319328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41008404" sideWeight="0.4954683" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1277311" sideWeight="0.49697885" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34789917" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34789917" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -770,9 +761,19 @@
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ESCHER/card-game.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="88" />
+          <url>file://$PROJECT_DIR$/scientific_expedition/network-attack.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scientific_expedition/calculate-islands.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ESCHER/the-buttons.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -785,7 +786,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="89" />
+      <option name="time" value="99" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -851,28 +852,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/the-warriors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1109">
-          <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/site-packages/sendgrid/helpers/mail/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/site-packages/sendgrid/helpers/mail/content.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/site-packages/sendgrid/helpers/mail/email.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1101,22 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph_module/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1132,14 +1095,6 @@
           <folding>
             <element signature="e#0#31#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scientific_expedition/network-attack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,6 +1206,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_module/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SendGrid/node-disconnected-users2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scientific_expedition/network-attack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scientific_expedition/calculate-islands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ESCHER/the-buttons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
         </state>
       </provider>

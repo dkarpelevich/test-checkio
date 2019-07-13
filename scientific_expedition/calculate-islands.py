@@ -2,41 +2,11 @@ from typing import List
 from graph_module import graph_methods as gm
 
 
-def decorator(land_map, i, j):
-    try:
-        if land_map[i][j] == 1 and i >= 0 and j >= 0:
-            return i, j
-    except IndexError:
-        pass
-
-
-def prepare_graph(land_map: List[List[int]]) -> dict:
-    dict_of_cells = {}
-    for i in range(len(land_map)):
-        for j in range(len(land_map[i])):
-            one_cell = set()
-            if land_map[i][j] == 1:
-                one_cell.add(decorator(land_map, i - 1, j - 1))
-                one_cell.add(decorator(land_map, i - 1, j))
-                one_cell.add(decorator(land_map, i - 1, j + 1))
-                one_cell.add(decorator(land_map, i, j - 1))
-                one_cell.add(decorator(land_map, i, j + 1))
-                one_cell.add(decorator(land_map, i + 1, j - 1))
-                one_cell.add(decorator(land_map, i + 1, j))
-                one_cell.add(decorator(land_map, i + 1, j + 1))
-                try:
-                    one_cell.remove(None)
-                except KeyError:
-                    pass
-                dict_of_cells.update({(i, j): one_cell})
-    return dict_of_cells
-
-
 def checkio(land_map: List[List[int]]) -> List[int]:
-    graph = prepare_graph(land_map)
+    graph = gm.Graph.prepare_graph(land_map, True)
     list_of_squares = []
     for i in graph:
-        cell_path = gm.dfs(graph, i)
+        cell_path = gm.Graph.dfs(graph, i)
         if cell_path not in list_of_squares:
             list_of_squares.append(cell_path)
     return sorted([len(x) for x in list_of_squares])
