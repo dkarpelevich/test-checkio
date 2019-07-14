@@ -3,12 +3,7 @@ from graph_module import graph_methods as gm
 
 
 def checkio(land_map: List[List[int]]) -> List[int]:
-    graph = gm.Graph.prepare_graph(land_map, True)
-    list_of_squares = []
-    for i in graph:
-        cell_path = gm.Graph.dfs(graph, i)
-        if cell_path not in list_of_squares:
-            list_of_squares.append(cell_path)
+    list_of_squares = gm.Graph.island(land_map, True)
     return sorted([len(x) for x in list_of_squares])
 
 

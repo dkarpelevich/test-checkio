@@ -4,13 +4,12 @@ def buttons(land_map):
     land_map = land_map.split('\n')[1:]
     for i in range(len(land_map)):
         land_map[i] = [int(j) for j in land_map[i]]
-    graph = gm.Graph.prepare_graph(land_map, False)
-    list_of_squares = []
-    for i in graph:
-        cell_path = gm.Graph.dfs(graph, i)
-        if cell_path not in list_of_squares:
-            list_of_squares.append(cell_path)
-    return sorted([len(x) for x in list_of_squares])
+    list_of_squares = gm.Graph.island(land_map, False)
+    sum_island = [0 for _ in range(len(list_of_squares))]
+    for item in range(len(list_of_squares)):
+        for j in list_of_squares[item]:
+            sum_island[item] += land_map[j[0]][j[1]]
+    return sorted(sum_island, reverse=True)
 
 
 if __name__ == '__main__':

@@ -11,7 +11,7 @@ from typing import List
 
 class Graph:
     @staticmethod
-    def decorator(land_map, i, j):
+    def decorator(land_map: List[List[int]], i, j):
         try:
             if land_map[i][j] != 0 and i >= 0 and j >= 0:
                 return i, j
@@ -19,7 +19,8 @@ class Graph:
             pass
 
     """
-    prepare_graph(land_map: list) return dict of islands connected horizontally, vertically and diagonally  
+    prepare_graph(land_map: list, diagonal: bool) returns dict of vertex connected horizontally,
+    vertically and/or diagonally  
     [[1, 0, 1, 0],
      [1, 0, 0, 1],
      [0, 1, 0, 1]]
@@ -50,6 +51,25 @@ class Graph:
                         pass
                     dict_of_cells.update({(i, j): one_cell})
         return dict_of_cells
+
+    """
+    [[1, 0, 1, 0],
+     [1, 0, 0, 1],
+     [0, 1, 0, 1]]
+         ||
+         \/
+    island returns list of sets with coordinates of islands w/ or w/o diagonal connections
+    [{(1, 3), (2, 3), (0, 2)}, {(1, 0), (0, 0), (2, 1)}]
+    """
+    @staticmethod
+    def island(land_map: List[List[int]], diagonal: bool) -> List[set]:
+        graph = Graph.prepare_graph(land_map, diagonal)
+        list_of_squares = []
+        for i in graph:
+            cell_path = Graph.dfs(graph, i)
+            if cell_path not in list_of_squares:
+                list_of_squares.append(cell_path)
+        return list_of_squares
 
     @staticmethod
     def dfs(graph, start):
