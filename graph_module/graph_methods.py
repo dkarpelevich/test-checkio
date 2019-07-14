@@ -11,16 +11,17 @@ from typing import List
 
 class Graph:
     @staticmethod
-    def decorator(land_map: List[List[int]], i, j):
+    def decorator(land_map: List[List[int]], i, j, unlimited: bool):
         try:
-            if land_map[i][j] != 0 and i >= 0 and j >= 0:
+            if (land_map[i][j] != 0 or unlimited) and i >= 0 and j >= 0:
                 return i, j
         except IndexError:
             pass
 
     """
     prepare_graph(land_map: list, diagonal: bool) returns dict of vertex connected horizontally,
-    vertically and/or diagonally  
+    vertically and/or diagonally (diagonal: bool). The condition to connect values in matrix is
+    != 0 or w/o restrictions - connect every single element with the next one (unlimited: bool). 
     [[1, 0, 1, 0],
      [1, 0, 0, 1],
      [0, 1, 0, 1]]
@@ -30,21 +31,21 @@ class Graph:
      (1, 0): {(0, 0), (2, 1)}, (0, 2): {(1, 3)}, (0, 0): {(1, 0)}}
     """
     @staticmethod
-    def prepare_graph(land_map: List[List[int]], diagonal: bool) -> dict:
+    def prepare_graph(land_map: List[List[int]], diagonal: bool, unlimited: bool) -> dict:
         dict_of_cells = {}
         for i in range(len(land_map)):
             for j in range(len(land_map[i])):
                 one_cell = set()
-                if land_map[i][j] != 0:
+                if land_map[i][j] != 0 or unlimited:
                     if diagonal:
-                        one_cell.add(Graph.decorator(land_map, i - 1, j - 1))  # d
-                        one_cell.add(Graph.decorator(land_map, i - 1, j + 1))  # d
-                        one_cell.add(Graph.decorator(land_map, i + 1, j - 1))  # d
-                        one_cell.add(Graph.decorator(land_map, i + 1, j + 1))  # d
-                    one_cell.add(Graph.decorator(land_map, i - 1, j))      # v
-                    one_cell.add(Graph.decorator(land_map, i + 1, j))      # v
-                    one_cell.add(Graph.decorator(land_map, i, j - 1))      # h
-                    one_cell.add(Graph.decorator(land_map, i, j + 1))      # h
+                        one_cell.add(Graph.decorator(land_map, i - 1, j - 1, unlimited))  # d
+                        one_cell.add(Graph.decorator(land_map, i - 1, j + 1, unlimited))  # d
+                        one_cell.add(Graph.decorator(land_map, i + 1, j - 1, unlimited))  # d
+                        one_cell.add(Graph.decorator(land_map, i + 1, j + 1, unlimited))  # d
+                    one_cell.add(Graph.decorator(land_map, i - 1, j, unlimited))      # v
+                    one_cell.add(Graph.decorator(land_map, i + 1, j, unlimited))      # v
+                    one_cell.add(Graph.decorator(land_map, i, j - 1, unlimited))      # h
+                    one_cell.add(Graph.decorator(land_map, i, j + 1, unlimited))      # h
                     try:
                         one_cell.remove(None)
                     except KeyError:
@@ -63,7 +64,7 @@ class Graph:
     """
     @staticmethod
     def island(land_map: List[List[int]], diagonal: bool) -> List[set]:
-        graph = Graph.prepare_graph(land_map, diagonal)
+        graph = Graph.prepare_graph(land_map, diagonal, False)
         list_of_squares = []
         for i in graph:
             cell_path = Graph.dfs(graph, i)
@@ -91,3 +92,23 @@ class Graph:
                     yield path + [next]
                 else:
                     stack.append((next, path + [next]))
+
+    @staticmethod
+    def dfs_paths_recursion(graph, start, goal, path=None):
+        if path is None:
+            path = [start]
+        if start == goal:
+            yield path
+        for next in graph[start] - set(path):
+            yield from Graph.dfs_paths_recursion(graph, next, goal, path + [next])
+
+    @staticmethod
+    def bfs_paths(graph, start, goal):
+        queue = [(start, [start])]
+        while queue:
+            (vertex, path) = queue.pop(0)
+            for next in graph[vertex] - set(path):
+                if next == goal:
+                    yield path + [next]
+                else:
+                    queue.append((next, path + [next]))
