@@ -2,14 +2,13 @@ consonants = "bcdfghjklmnpqrstvwxz"
 VOWELS = "aeiouy"
 
 def translate(phrase):
-    for i in range(len(phrase)):
-        if i == len(phrase):
-            break
+    i = 0
+    while len(phrase) > i:
         if phrase[i] in consonants:
             phrase = phrase[:i+1] + phrase[i+2:]
+        i += 1
     for i in VOWELS:
-        if i*3 in phrase:
-            phrase = phrase.replace(i*3, i)
+        phrase = phrase.replace(i*3, i)
     return phrase
 
 if __name__ == '__main__':
