@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d72b839d-71e2-4a29-9ab3-c461bd543ae3" name="Default" comment="next tasks">
+    <list default="true" id="d72b839d-71e2-4a29-9ab3-c461bd543ae3" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ESCHER/hypercube.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ESCHER/test.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/denis.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/denis.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/test-checkio.iml" afterPath="$PROJECT_DIR$/.idea/test-checkio.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ESCHER/graphical-key.py" afterPath="$PROJECT_DIR$/ESCHER/graphical-key.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,23 +22,38 @@
       <file leaf-file-name="graph_methods.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1540">
-              <caret line="13" column="72" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="72" />
-              <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="72" />
-              <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="72" />
-              <caret line="16" column="72" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="72" />
-              <caret line="17" column="72" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="72" />
-              <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="72" />
+            <state relative-caret-position="220">
+              <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphical-key.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="graphical-key.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ESCHER/graphical-key.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="352">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hypercube.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ESCHER/hypercube.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ESCHER/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -71,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node-disconnected-users2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="node-disconnected-users2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SendGrid/node-disconnected-users2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            <state relative-caret-position="374">
+              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -115,11 +135,14 @@
       <find>graph_methods</find>
       <find>decorator</find>
       <find>prepare_graph</find>
+      <find>{}</find>
+      <find>enu</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
       <replace>anr</replace>
       <replace>Graph.decorator</replace>
+      <replace>set()</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -128,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/elementary/index-power.py" />
-        <option value="$PROJECT_DIR$/elementary/digits-multiplication.py" />
         <option value="$PROJECT_DIR$/elementary/secret-message.py" />
         <option value="$PROJECT_DIR$/elementary/even-last.py" />
         <option value="$PROJECT_DIR$/elementary/best-stock.py" />
@@ -179,6 +200,8 @@
         <option value="$PROJECT_DIR$/ESCHER/the-buttons.py" />
         <option value="$PROJECT_DIR$/graph_module/graph_methods.py" />
         <option value="$PROJECT_DIR$/ESCHER/graphical-key.py" />
+        <option value="$PROJECT_DIR$/ESCHER/hypercube.py" />
+        <option value="$PROJECT_DIR$/ESCHER/test.py" />
       </list>
     </option>
   </component>
@@ -286,6 +309,17 @@
               <item name="test-checkio" type="462c0819:PsiDirectoryNode" />
               <item name="scientific_expedition" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test-checkio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-checkio" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-checkio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-checkio" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -309,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.graphical-key">
+  <component name="RunManager" selected="Python.hypercube">
     <configuration name="calculate-islands" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,37 +380,37 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="network-attack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hypercube" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scientific_expedition" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ESCHER" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scientific_expedition/network-attack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ESCHER/hypercube.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="node-disconnected-users2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SendGrid" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ESCHER" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SendGrid/node-disconnected-users2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ESCHER/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -402,18 +436,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.calculate-islands" />
-      <item index="1" class="java.lang.String" itemvalue="Python.network-attack" />
-      <item index="2" class="java.lang.String" itemvalue="Python.node-disconnected-users2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.the-buttons" />
-      <item index="4" class="java.lang.String" itemvalue="Python.graphical-key" />
+      <item index="1" class="java.lang.String" itemvalue="Python.the-buttons" />
+      <item index="2" class="java.lang.String" itemvalue="Python.graphical-key" />
+      <item index="3" class="java.lang.String" itemvalue="Python.hypercube" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.graphical-key" />
-        <item index="1" class="java.lang.String" itemvalue="Python.calculate-islands" />
-        <item index="2" class="java.lang.String" itemvalue="Python.the-buttons" />
-        <item index="3" class="java.lang.String" itemvalue="Python.network-attack" />
-        <item index="4" class="java.lang.String" itemvalue="Python.node-disconnected-users2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.hypercube" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.graphical-key" />
+        <item index="3" class="java.lang.String" itemvalue="Python.calculate-islands" />
+        <item index="4" class="java.lang.String" itemvalue="Python.the-buttons" />
       </list>
     </recent_temporary>
   </component>
@@ -669,22 +703,29 @@
       <option name="project" value="LOCAL" />
       <updated>1563132762254</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="next tasks">
+      <created>1563372090510</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1563372090512</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-14" width="1368" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12267658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16505577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26050422" sideWeight="0.5060423" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24033614" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31764707" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18319328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41008404" sideWeight="0.4954683" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40504202" sideWeight="0.4954683" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54957986" sideWeight="0.49697885" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4302521" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29411766" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -807,6 +848,21 @@
           <line>39</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ESCHER/graphical-key.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ESCHER/hypercube.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ESCHER/hypercube.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -818,59 +874,70 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="103" />
+      <option name="time" value="124" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="THE_DICT" language="Python" />
+        <watch expression="hypercube_list[number + 1]" language="Python" />
+        <watch expression="hypercube_list" language="Python" />
+        <watch expression="THE_DICT[hypercube_list[number + 1]]" />
+        <watch expression="list(enumerate(hypercube_list))[:len(hypercube_list) - 1]" language="Python" />
+        <watch expression="len(grid[0]) - 1" />
+        <watch expression="grid[coord[0]][coord[1] - 1]" />
+        <watch expression="coord[0]+1" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
+        <expression-string>coord[0]+1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>grid[5][2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>grid[coord[0] + 1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>coord[0] + 1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list(enumerate(hypercube_list))[:len(hypercube_list) - 1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>coord[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>hypercube_list</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>hypercube_list[number + 1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>THE_DICT</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>results_list[-2]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>results_list[-1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>results_list[3-4]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>len(sw)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>info[sw[i][0]]['amount']</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sw[i][0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>info[sw[i][0]]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>info[sw[i][0]]['weight']</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>equation.index(first_addend)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>equation[1:].index('-')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -894,20 +961,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/site-packages/pip/_vendor/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="569" column="8" lean-forward="false" selection-start-line="569" selection-start-column="8" selection-end-line="569" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.5/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/site-packages/python_http_client/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1547">
@@ -1185,13 +1238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ESCHER/treasures.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1246,31 +1292,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SendGrid/node-disconnected-users2.py">
+    <entry file="file://$PROJECT_DIR$/ESCHER/graphical-key.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        <state relative-caret-position="352">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ESCHER/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ESCHER/hypercube.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1540">
-          <caret line="13" column="72" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="72" />
-          <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="72" />
-          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="72" />
-          <caret line="16" column="72" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="72" />
-          <caret line="17" column="72" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="72" />
-          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="72" />
+        <state relative-caret-position="220">
+          <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ESCHER/graphical-key.py">
+    <entry file="file://$PROJECT_DIR$/SendGrid/node-disconnected-users2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="374">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding />
         </state>
       </provider>
