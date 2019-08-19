@@ -3,7 +3,8 @@ from graph_module import graph_methods as gm
 
 
 def checkio(land_map: List[List[int]]) -> List[int]:
-    list_of_squares = gm.Graph.island(land_map, True)
+    graph = gm.Graph.prepare_graph(land_map, True, False)
+    list_of_squares = gm.Graph.island(graph)
     return sorted([len(x) for x in list_of_squares])
 
 
