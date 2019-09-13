@@ -11,6 +11,9 @@ def checkio(first, second):
         s += int(first[i]) ^ int(second[i])
     return s
 
+def correct_solution(first, second):
+    return bin(first ^ second).count('1')
+
 if __name__ == '__main__':
     assert checkio(1, 2) == 2
 
