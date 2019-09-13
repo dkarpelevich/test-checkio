@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72b839d-71e2-4a29-9ab3-c461bd543ae3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Dropbox/conversion-into-camelcase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Dropbox/hamming-distance2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Dropbox/the-most-frequent-weekdays.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/oreilly/feed-pigeons.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/oreilly/feed-pigeons.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/Dropbox/conversion-into-camelcase.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="40" />
+              <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -64,11 +61,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hamming-distance2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hamming-distance2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dropbox/hamming-distance2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ip-network-route-summarization.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -88,17 +105,7 @@
         <entry file="file://$PROJECT_DIR$/INCINERATOR/dialogues.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="when-is-friday.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BLIZZARD/when-is-friday.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -170,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SendGrid/sendgrid-geo-stats.py" />
         <option value="$PROJECT_DIR$/mine/amsco-cipher.py" />
         <option value="$PROJECT_DIR$/github/conversion-from-camelcase.py" />
         <option value="$PROJECT_DIR$/github/currency-style.py" />
@@ -221,6 +227,7 @@
         <option value="$PROJECT_DIR$/Dropbox/conversion-into-camelcase.py" />
         <option value="$PROJECT_DIR$/Dropbox/the-most-frequent-weekdays.py" />
         <option value="$PROJECT_DIR$/Dropbox/hamming-distance2.py" />
+        <option value="$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py" />
       </list>
     </option>
   </component>
@@ -389,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hamming-distance2">
+  <component name="RunManager" selected="Python.ip-network-route-summarization">
     <configuration name="conversion-into-camelcase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -444,6 +451,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="ip-network-route-summarization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dropbox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test-checkio" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="the-most-frequent-weekdays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,38 +487,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="when-is-friday" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BLIZZARD" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BLIZZARD/when-is-friday.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.when-is-friday" />
-      <item index="1" class="java.lang.String" itemvalue="Python.feed-pigeons" />
-      <item index="2" class="java.lang.String" itemvalue="Python.conversion-into-camelcase" />
-      <item index="3" class="java.lang.String" itemvalue="Python.the-most-frequent-weekdays" />
-      <item index="4" class="java.lang.String" itemvalue="Python.hamming-distance2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.feed-pigeons" />
+      <item index="1" class="java.lang.String" itemvalue="Python.conversion-into-camelcase" />
+      <item index="2" class="java.lang.String" itemvalue="Python.the-most-frequent-weekdays" />
+      <item index="3" class="java.lang.String" itemvalue="Python.hamming-distance2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ip-network-route-summarization" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.hamming-distance2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.the-most-frequent-weekdays" />
-        <item index="2" class="java.lang.String" itemvalue="Python.conversion-into-camelcase" />
-        <item index="3" class="java.lang.String" itemvalue="Python.feed-pigeons" />
-        <item index="4" class="java.lang.String" itemvalue="Python.when-is-friday" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ip-network-route-summarization" />
+        <item index="1" class="java.lang.String" itemvalue="Python.hamming-distance2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.the-most-frequent-weekdays" />
+        <item index="3" class="java.lang.String" itemvalue="Python.conversion-into-camelcase" />
+        <item index="4" class="java.lang.String" itemvalue="Python.feed-pigeons" />
       </list>
     </recent_temporary>
   </component>
@@ -812,24 +819,31 @@
       <option name="project" value="LOCAL" />
       <updated>1568025324196</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="next tasks">
+      <created>1568235858902</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1568235858902</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-14" width="1368" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16505577" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16505577" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44705883" sideWeight="0.5026022" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18319328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45714286" sideWeight="0.4914498" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23361345" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37983194" sideWeight="0.4914498" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22184874" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54957986" sideWeight="0.49697885" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16505577" sideWeight="0.50980395" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36302522" sideWeight="0.49739778" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41680673" sideWeight="0.49739778" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1001,58 +1015,64 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="155" />
+      <option name="time" value="162" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="Counter(s).most_common()" />
+        <watch expression="bin_ips[3][21]" language="Python" />
+        <watch expression="first_ip[22]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>int(i[j][1])</expression-string>
+        <expression-string>first_ip[22]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>int(i[j+1][1])</expression-string>
+        <expression-string>bin_ips[3][21]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i[j][0]</expression-string>
+        <expression-string>first_ip[21]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>list(zip(*table[::-1]))</expression-string>
+        <expression-string>common_part[8:16]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>list([zip(*table[::-1])])</expression-string>
+        <expression-string>common_part[8:15]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>list[zip(*table[::-1])]</expression-string>
+        <expression-string>common_part[9:15]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[zip(*table[::-1])]</expression-string>
+        <expression-string>'0b{0}'.format(common_part[0:8])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>zip(*table[::-1])</expression-string>
+        <expression-string>'0b'.format(common_part[0:8])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>*table[::-1]</expression-string>
+        <expression-string>common_part[0:8]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(common_part)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1076,13 +1096,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/most-wanted-letter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Electronic_station/speechmodule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1334,14 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6820">
-          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scientific_expedition/calculate-islands.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1405,7 +1410,7 @@
     <entry file="file://$PROJECT_DIR$/INCINERATOR/dialogues.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1413,7 +1418,7 @@
     <entry file="file://$PROJECT_DIR$/oreilly/feed-pigeons.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1421,7 +1426,7 @@
     <entry file="file://$PROJECT_DIR$/Dropbox/conversion-into-camelcase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="40" />
+          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1463,7 +1468,23 @@
     <entry file="file://$PROJECT_DIR$/Dropbox/hamming-distance2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
       </provider>
