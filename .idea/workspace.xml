@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72b839d-71e2-4a29-9ab3-c461bd543ae3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Dropbox/3-chefs.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mine/caesar-cipher-encryptor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mine/morse-encoder.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py" afterPath="$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,33 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hexagonal-islands.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BLIZZARD/hexagonal-islands.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feed-pigeons.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oreilly/feed-pigeons.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conversion-into-camelcase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dropbox/conversion-into-camelcase.py">
+      <file leaf-file-name="graph_methods.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="40" />
+              <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,6 +41,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="hamming-distance2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dropbox/hamming-distance2.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3-chefs.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3-chefs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dropbox/3-chefs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -85,38 +74,48 @@
       <file leaf-file-name="ip-network-route-summarization.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="44">
+              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="the-warriors.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/the-warriors.py">
+      <file leaf-file-name="amsco-cipher.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mine/amsco-cipher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1188">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dialogues.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/INCINERATOR/dialogues.py">
+      <file leaf-file-name="caesar-cipher-encryptor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mine/caesar-cipher-encryptor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            <state relative-caret-position="154">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="days-diff.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oreilly/days-diff.py">
+      <file leaf-file-name="morse-decoder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/INCINERATOR/morse-decoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="462">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="morse-encoder.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mine/morse-encoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -133,9 +132,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>stri</find>
-      <find>exce</find>
-      <find>format</find>
       <find>abc</find>
       <find>def get</find>
       <find>ge</find>
@@ -163,6 +159,9 @@
       <find>most</find>
       <find>most_com</find>
       <find>bin</find>
+      <find>_ip</find>
+      <find>alphab</find>
+      <find>map(</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -178,8 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/github/conversion-from-camelcase.py" />
-        <option value="$PROJECT_DIR$/github/currency-style.py" />
         <option value="$PROJECT_DIR$/github/every-person-is-unique.py" />
         <option value="$PROJECT_DIR$/github/voice-tv-control.py" />
         <option value="$PROJECT_DIR$/scientific_expedition/morse-clock.py" />
@@ -226,9 +223,11 @@
         <option value="$PROJECT_DIR$/oreilly/feed-pigeons.py" />
         <option value="$PROJECT_DIR$/Dropbox/conversion-into-camelcase.py" />
         <option value="$PROJECT_DIR$/Dropbox/the-most-frequent-weekdays.py" />
-        <option value="$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py" />
         <option value="$PROJECT_DIR$/Dropbox/hamming-distance2.py" />
         <option value="$PROJECT_DIR$/Dropbox/3-chefs.py" />
+        <option value="$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py" />
+        <option value="$PROJECT_DIR$/mine/caesar-cipher-encryptor.py" />
+        <option value="$PROJECT_DIR$/mine/morse-encoder.py" />
       </list>
     </option>
   </component>
@@ -383,7 +382,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="SearchEverywhereHistoryKey" value="calcu&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/scientific_expedition/calculate-islands.py&#10;test&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/ESCHER/test.py&#10;graph&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/graph_module/graph_methods.py&#10;matr&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/mine/skew-symmetric-matrix.py" />
+    <property name="SearchEverywhereHistoryKey" value="morse&#9;null&#9;null&#10;calcu&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/scientific_expedition/calculate-islands.py&#10;test&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/ESCHER/test.py&#10;graph&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/graph_module/graph_methods.py&#10;matr&#9;FILE&#9;file:///home/denis/Documents/PythonProjects/test-checkio/mine/skew-symmetric-matrix.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -397,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3-chefs">
+  <component name="RunManager" selected="Python.morse-encoder">
     <configuration name="3-chefs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -416,19 +415,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="conversion-into-camelcase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="caesar-cipher-encryptor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dropbox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mine" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dropbox/conversion-into-camelcase.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mine/caesar-cipher-encryptor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -470,38 +469,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="the-most-frequent-weekdays" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="morse-encoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dropbox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mine" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dropbox/the-most-frequent-weekdays.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mine/morse-encoder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.conversion-into-camelcase" />
-      <item index="1" class="java.lang.String" itemvalue="Python.the-most-frequent-weekdays" />
-      <item index="2" class="java.lang.String" itemvalue="Python.hamming-distance2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ip-network-route-summarization" />
-      <item index="4" class="java.lang.String" itemvalue="Python.3-chefs" />
+      <item index="0" class="java.lang.String" itemvalue="Python.hamming-distance2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ip-network-route-summarization" />
+      <item index="2" class="java.lang.String" itemvalue="Python.3-chefs" />
+      <item index="3" class="java.lang.String" itemvalue="Python.caesar-cipher-encryptor" />
+      <item index="4" class="java.lang.String" itemvalue="Python.morse-encoder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.3-chefs" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ip-network-route-summarization" />
-        <item index="2" class="java.lang.String" itemvalue="Python.hamming-distance2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.the-most-frequent-weekdays" />
-        <item index="4" class="java.lang.String" itemvalue="Python.conversion-into-camelcase" />
+        <item index="0" class="java.lang.String" itemvalue="Python.morse-encoder" />
+        <item index="1" class="java.lang.String" itemvalue="Python.caesar-cipher-encryptor" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ip-network-route-summarization" />
+        <item index="3" class="java.lang.String" itemvalue="Python.3-chefs" />
+        <item index="4" class="java.lang.String" itemvalue="Python.hamming-distance2" />
       </list>
     </recent_temporary>
   </component>
@@ -841,24 +840,30 @@
       <option name="project" value="LOCAL" />
       <updated>1568383650785</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="next tasks">
+      <created>1568388136054</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1568388136055</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-14" width="1368" height="728" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16505577" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16505577" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44705883" sideWeight="0.5026022" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18319328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18151261" sideWeight="0.4914498" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22184874" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3815126" sideWeight="0.4914498" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3344538" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54957986" sideWeight="0.49697885" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16505577" sideWeight="0.50980395" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41680673" sideWeight="0.49739778" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2672269" sideWeight="0.49739778" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1024,6 +1029,11 @@
           <line>12</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1035,16 +1045,42 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="163" />
+      <option name="time" value="168" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="self.eat + ': {1}, ' + self.to_drink + ': {2}, Total: {3}'.format(self.food, self.drink, self.total_amount)" language="Python" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>str(IPv4Network(ipmin).supernet(10))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>IPv4Network(ipmin).supernet(10)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>IPv4Network(ipmin)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>int(ipmin)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ipmin._ip</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>IPv4Address('192.168.0.2')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>self.eat + ': {1}, ' + self.to_drink + ': {2}, Total: {3}'.format(self.food, self.drink, self.total_amount)</expression-string>
         <language-id>Python</language-id>
@@ -1062,36 +1098,6 @@
       </expression>
       <expression>
         <expression-string>bin_ips[3][21]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>first_ip[21]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>common_part[8:16]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>common_part[8:15]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>common_part[9:15]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>'0b{0}'.format(common_part[0:8])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>'0b'.format(common_part[0:8])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1115,42 +1121,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/numbers_to_words_representation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ESCHER/the-secret-room.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ESCHER/ground-for-the-house.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ESCHER/the-ship-teams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ESCHER/compass-map-and-spyglass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ESCHER/the-stone-wall.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1308,13 +1278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/1655717803/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="4832" column="8" lean-forward="false" selection-start-line="4832" selection-start-column="8" selection-end-line="4832" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BLIZZARD/gcd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1348,6 +1311,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1366,14 +1332,6 @@
           <folding>
             <element signature="e#0#23#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,7 +1364,7 @@
         <state relative-caret-position="50">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1467,22 +1425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dropbox/the-most-frequent-weekdays.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1501,10 +1443,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dropbox/3-chefs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/ipaddress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="924" column="8" lean-forward="false" selection-start-line="924" selection-start-column="8" selection-end-line="924" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/amsco-cipher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/1655717803/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="4867" column="8" lean-forward="false" selection-start-line="4867" selection-start-column="8" selection-end-line="4867" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INCINERATOR/morse-decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/caesar-cipher-encryptor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/morse-encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding />
         </state>
       </provider>
