@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d72b839d-71e2-4a29-9ab3-c461bd543ae3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mine/caesar-cipher-encryptor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mine/morse-encoder.py" />
+    <list default="true" id="d72b839d-71e2-4a29-9ab3-c461bd543ae3" name="Default" comment="next tasks">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Dropbox/ethernet-ring-dimensioning.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py" afterPath="$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,24 +17,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="graph_methods.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
+      <file leaf-file-name="ethernet-ring-dimensioning.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dropbox/ethernet-ring-dimensioning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="the-most-frequent-weekdays.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dropbox/the-most-frequent-weekdays.py">
+      <file leaf-file-name="graph_methods.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-231">
+              <caret line="116" column="2" lean-forward="true" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="network-attack.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scientific_expedition/network-attack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-506">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,78 +50,8 @@
       <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="104">
               <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hamming-distance2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dropbox/hamming-distance2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3-chefs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dropbox/3-chefs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ip-network-route-summarization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="amsco-cipher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mine/amsco-cipher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="caesar-cipher-encryptor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mine/caesar-cipher-encryptor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="morse-decoder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/INCINERATOR/morse-decoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="morse-encoder.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mine/morse-encoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -132,9 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>abc</find>
-      <find>def get</find>
-      <find>ge</find>
       <find>'''</find>
       <find>re.</find>
       <find>’</find>
@@ -162,6 +95,9 @@
       <find>_ip</find>
       <find>alphab</find>
       <find>map(</find>
+      <find>get</find>
+      <find>lambda</find>
+      <find>get(</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -177,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/github/every-person-is-unique.py" />
         <option value="$PROJECT_DIR$/github/voice-tv-control.py" />
         <option value="$PROJECT_DIR$/scientific_expedition/morse-clock.py" />
         <option value="$PROJECT_DIR$/INCINERATOR/binary-count.py" />
@@ -215,7 +150,6 @@
         <option value="$PROJECT_DIR$/BLIZZARD/check-digit.py" />
         <option value="$PROJECT_DIR$/BLIZZARD/gcd.py" />
         <option value="$PROJECT_DIR$/scientific_expedition/calculate-islands.py" />
-        <option value="$PROJECT_DIR$/graph_module/graph_methods.py" />
         <option value="$PROJECT_DIR$/BLIZZARD/hexagonal-islands.py" />
         <option value="$PROJECT_DIR$/oreilly/median.py" />
         <option value="$PROJECT_DIR$/oreilly/days-diff.py" />
@@ -228,6 +162,8 @@
         <option value="$PROJECT_DIR$/Dropbox/ip-network-route-summarization.py" />
         <option value="$PROJECT_DIR$/mine/caesar-cipher-encryptor.py" />
         <option value="$PROJECT_DIR$/mine/morse-encoder.py" />
+        <option value="$PROJECT_DIR$/graph_module/graph_methods.py" />
+        <option value="$PROJECT_DIR$/Dropbox/ethernet-ring-dimensioning.py" />
       </list>
     </option>
   </component>
@@ -396,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.morse-encoder">
+  <component name="RunManager" selected="Python.ethernet-ring-dimensioning">
     <configuration name="3-chefs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -433,7 +369,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="hamming-distance2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ethernet-ring-dimensioning" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -445,7 +381,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dropbox/hamming-distance2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dropbox/ethernet-ring-dimensioning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -488,19 +424,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.hamming-distance2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ip-network-route-summarization" />
-      <item index="2" class="java.lang.String" itemvalue="Python.3-chefs" />
-      <item index="3" class="java.lang.String" itemvalue="Python.caesar-cipher-encryptor" />
-      <item index="4" class="java.lang.String" itemvalue="Python.morse-encoder" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ip-network-route-summarization" />
+      <item index="1" class="java.lang.String" itemvalue="Python.3-chefs" />
+      <item index="2" class="java.lang.String" itemvalue="Python.caesar-cipher-encryptor" />
+      <item index="3" class="java.lang.String" itemvalue="Python.morse-encoder" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ethernet-ring-dimensioning" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.morse-encoder" />
-        <item index="1" class="java.lang.String" itemvalue="Python.caesar-cipher-encryptor" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ip-network-route-summarization" />
-        <item index="3" class="java.lang.String" itemvalue="Python.3-chefs" />
-        <item index="4" class="java.lang.String" itemvalue="Python.hamming-distance2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ethernet-ring-dimensioning" />
+        <item index="1" class="java.lang.String" itemvalue="Python.morse-encoder" />
+        <item index="2" class="java.lang.String" itemvalue="Python.caesar-cipher-encryptor" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ip-network-route-summarization" />
+        <item index="4" class="java.lang.String" itemvalue="Python.3-chefs" />
       </list>
     </recent_temporary>
   </component>
@@ -847,23 +783,31 @@
       <option name="project" value="LOCAL" />
       <updated>1568388136055</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="next tasks">
+      <created>1568573394073</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1568573394073</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-14" width="1368" height="728" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16505577" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16505577" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44705883" sideWeight="0.5026022" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38319328" sideWeight="0.51152414" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18319328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3815126" sideWeight="0.4914498" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3344538" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4369748" sideWeight="0.48847583" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.297479" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54957986" sideWeight="0.49697885" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16505577" sideWeight="0.50980395" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2672269" sideWeight="0.49739778" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27731094" sideWeight="0.4944238" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -970,11 +914,6 @@
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/scientific_expedition/network-attack.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/scientific_expedition/calculate-islands.py</url>
           <line>7</line>
           <option name="timeStamp" value="99" />
@@ -1034,6 +973,11 @@
           <line>2</line>
           <option name="timeStamp" value="164" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Dropbox/ethernet-ring-dimensioning.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1045,12 +989,26 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="168" />
+      <option name="time" value="180" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="ETHERNET" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>ETHERNET</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sorted(s[0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>str(IPv4Network(ipmin).supernet(10))</expression-string>
         <language-id>Python</language-id>
@@ -1091,16 +1049,6 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>first_ip[22]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>bin_ips[3][21]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
@@ -1121,14 +1069,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ESCHER/the-stone-wall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ESCHER/keys-and-locks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1177,14 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scientific_expedition/network-attack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1443,14 +1375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dropbox/3-chefs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1463,14 +1387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="924" column="8" lean-forward="false" selection-start-line="924" selection-start-column="8" selection-end-line="924" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1519,6 +1435,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scientific_expedition/network-attack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/project-2/venv/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_module/graph_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="116" column="2" lean-forward="true" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dropbox/ethernet-ring-dimensioning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
           <folding />
         </state>
       </provider>
