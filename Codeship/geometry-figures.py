@@ -6,90 +6,82 @@ class Parameters:
     def __init__(self, param):
         self.param = param
 
-    def choose_figure(self, figure):
-        self.figure = figure
+    def choose_figure(self, figures):
+        self.figure = figures
 
     def perimeter(self):
-        return self.figure.perimeter(self.param)
+        return round(self.figure.perimeter(self.param), 2)
 
     def area(self):
-        return self.figure.area(self.param)
+        return round(self.figure.area(self.param), 2)
 
     def volume(self):
-        return self.figure.volume(self.param)
+        return round(self.figure.volume(self.param), 2)
 
-class Figure:
-    def perimeter(self, param):
-        raise NotImplementedError
-
-    def area(self, param):
-        raise NotImplementedError
-
-    def volume(self, param):
-        raise NotImplementedError
-
-class Circle(Figure):
+class Circle:
     def perimeter(self, radius):
-        return round(2*m.pi*radius, 2)
+        return 2*m.pi*radius
 
-    def area(self, radius):
-        a = round(m.pi * radius**2, 2)
+    @staticmethod
+    def area(radius):
+        a = m.pi * radius**2
         return a
 
-    def volume(self, radius):
+    @staticmethod
+    def volume(radius):
         return 0
 
-class Triangle(Figure):
+class Triangle:
     def perimeter(self, param):
-        return round(param*3, 2)
+        return param*3
 
     def area(self, param):
-        return round(m.sqrt(3)*param**2/4, 2)
+        return m.sqrt(3)*param**2/4
 
     def volume(self, param):
         return 0
 
-class Square(Figure):
+class Square:
     def perimeter(self, param):
-        return round(param*4, 2)
+        return param*4
 
     def area(self, param):
-        return round(param**2, 2)
+        return param**2
 
     def volume(self, param):
         return 0
 
-class Pentagon(Figure):
+class Pentagon:
     def perimeter(self, param):
-        return round(param*5, 2)
+        return param*5
 
     def area(self, param):
-        return round((5*param**2) / (4*m.tan(m.pi/5)), 2)
+        return (5*param**2) / (4*m.tan(m.pi/5))
 
     def volume(self, param):
         return 0
 
-class Hexagon(Figure):
+class Hexagon:
     def perimeter(self, param):
-        return round(param*6, 2)
+        return param*6
 
     def area(self, param):
-        return round((6 * param ** 2) / (4 * m.tan(m.pi/6)), 2)
+        return (6 * param ** 2) / (4 * m.tan(m.pi/6))
 
     def volume(self, param):
         return 0
 
-class Cube(Figure):
+class Cube:
     def perimeter(self, param):
-        return round(param*12, 2)
+        return param*12
 
     def area(self, param):
-        return round(6 * param**2, 2)
+        return 6 * param**2
 
     def volume(self, param):
-        return round(param**3, 2)
+        return param**3
 
 if __name__ == '__main__':
     figure = Parameters(10)
     figure.choose_figure(Hexagon())
-    assert figure.area() == 259.81
+    assert figure.volume() == 0
