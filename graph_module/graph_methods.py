@@ -10,6 +10,9 @@ graph = {'A': set(['B', 'C']),
 from typing import List, Set
 
 class Graph:
+    X = [(-1, -1), (-1, 1), (1, -1), (1, 1)]   # Vertex located diagonally from point
+    Plus = [(-1, 0), (0, -1), (0, 1), (1, 0)]  # Vertex located horizontally and vertically from point
+
     @staticmethod
     def decorator_hex(land_map: Set[str], i: str, j: int):
         if i+str(j) in land_map and i in 'ABCDEFGHIJKL' and j in range(1, 10):
@@ -68,14 +71,10 @@ class Graph:
                 one_cell = set()
                 if land_map[i][j] != 0 or unlimited:
                     if diagonal:
-                        one_cell.add(Graph.decorator(land_map, i - 1, j - 1, unlimited))  # d
-                        one_cell.add(Graph.decorator(land_map, i - 1, j + 1, unlimited))  # d
-                        one_cell.add(Graph.decorator(land_map, i + 1, j - 1, unlimited))  # d
-                        one_cell.add(Graph.decorator(land_map, i + 1, j + 1, unlimited))  # d
-                    one_cell.add(Graph.decorator(land_map, i - 1, j, unlimited))      # v
-                    one_cell.add(Graph.decorator(land_map, i + 1, j, unlimited))      # v
-                    one_cell.add(Graph.decorator(land_map, i, j - 1, unlimited))      # h
-                    one_cell.add(Graph.decorator(land_map, i, j + 1, unlimited))      # h
+                        for g in Graph.X:
+                            one_cell.add(Graph.decorator(land_map, i + g[0], j + g[1], unlimited))  # d
+                    for g in Graph.Plus:
+                        one_cell.add(Graph.decorator(land_map, i + g[0], j + g[1], unlimited))      # v
                     try:
                         one_cell.remove(None)
                     except KeyError:
