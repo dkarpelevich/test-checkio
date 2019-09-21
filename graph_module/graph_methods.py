@@ -11,14 +11,6 @@ from typing import List, Set
 
 class Graph:
     @staticmethod
-    def decorator(land_map: List[List[int]], i, j, unlimited: bool):
-        try:
-            if (land_map[i][j] != 0 or unlimited) and i >= 0 and j >= 0:
-                return i, j
-        except IndexError:
-            pass
-
-    @staticmethod
     def decorator_hex(land_map: Set[str], i: str, j: int):
         if i+str(j) in land_map and i in 'ABCDEFGHIJKL' and j in range(1, 10):
             return i + str(j)
@@ -47,10 +39,19 @@ class Graph:
             dict_of_cells.update({i: one_cell})
         return dict_of_cells
 
+    @staticmethod
+    def decorator(land_map: List[List[int]], i, j, unlimited: bool):
+        try:
+            if (land_map[i][j] != 0 or unlimited) and i >= 0 and j >= 0:
+                return i, j
+        except IndexError:
+            pass
+
     """
     prepare_graph(land_map: list, diagonal: bool) returns dict of vertex connected horizontally,
     vertically and/or diagonally (diagonal: bool). The condition to connect values in matrix is
     != 0 or w/o restrictions - connect every single element with the next one (unlimited: bool). 
+    Use result in dfs, dfs_path, bfs, bfs_path methods as first input parameter. 
     [[1, 0, 1, 0],
      [1, 0, 0, 1],
      [0, 1, 0, 1]]
