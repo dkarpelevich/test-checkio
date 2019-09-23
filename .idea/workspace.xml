@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72b839d-71e2-4a29-9ab3-c461bd543ae3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Codeship/caesar-cipher-decryptor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Codeship/middle-characters.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Codeship/the-nearest-square-number.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +21,28 @@
       <file leaf-file-name="safe-coasts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codeship/safe-coasts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="264">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="the-nearest-square-number.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Codeship/the-nearest-square-number.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middle-characters.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Codeship/middle-characters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="caesar-cipher-decryptor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="caesar-cipher-decryptor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codeship/caesar-cipher-decryptor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
@@ -113,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ESCHER/ground-for-the-house.py" />
-        <option value="$PROJECT_DIR$/ESCHER/compass-map-and-spyglass.py" />
         <option value="$PROJECT_DIR$/ESCHER/wild-dogs.py" />
         <option value="$PROJECT_DIR$/numbers-to-words-representation.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
@@ -164,6 +183,8 @@
         <option value="$PROJECT_DIR$/graph_module/graph_methods.py" />
         <option value="$PROJECT_DIR$/Codeship/caesar-cipher-decryptor.py" />
         <option value="$PROJECT_DIR$/Codeship/safe-coasts.py" />
+        <option value="$PROJECT_DIR$/Codeship/the-nearest-square-number.py" />
+        <option value="$PROJECT_DIR$/Codeship/middle-characters.py" />
       </list>
     </option>
   </component>
@@ -337,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.safe-coasts">
+  <component name="RunManager" selected="Python.middle-characters">
     <configuration name="caesar-cipher-decryptor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,42 +372,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test-checkio" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codeship/caesar-cipher-decryptor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="ethernet-ring-dimensioning" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dropbox" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dropbox/ethernet-ring-dimensioning.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="geometry-figures" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codeship" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test-checkio" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codeship/geometry-figures.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,6 +395,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="middle-characters" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codeship" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test-checkio" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codeship/middle-characters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="safe-coasts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -428,20 +431,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="the-nearest-square-number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codeship" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test-checkio" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codeship/the-nearest-square-number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ethernet-ring-dimensioning" />
-      <item index="1" class="java.lang.String" itemvalue="Python.geometry-figures" />
-      <item index="2" class="java.lang.String" itemvalue="Python.golden-pyramid" />
-      <item index="3" class="java.lang.String" itemvalue="Python.safe-coasts" />
-      <item index="4" class="java.lang.String" itemvalue="Python.caesar-cipher-decryptor" />
+      <item index="0" class="java.lang.String" itemvalue="Python.golden-pyramid" />
+      <item index="1" class="java.lang.String" itemvalue="Python.safe-coasts" />
+      <item index="2" class="java.lang.String" itemvalue="Python.caesar-cipher-decryptor" />
+      <item index="3" class="java.lang.String" itemvalue="Python.the-nearest-square-number" />
+      <item index="4" class="java.lang.String" itemvalue="Python.middle-characters" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.safe-coasts" />
-        <item index="1" class="java.lang.String" itemvalue="Python.caesar-cipher-decryptor" />
-        <item index="2" class="java.lang.String" itemvalue="Python.golden-pyramid" />
-        <item index="3" class="java.lang.String" itemvalue="Python.geometry-figures" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ethernet-ring-dimensioning" />
+        <item index="0" class="java.lang.String" itemvalue="Python.middle-characters" />
+        <item index="1" class="java.lang.String" itemvalue="Python.the-nearest-square-number" />
+        <item index="2" class="java.lang.String" itemvalue="Python.safe-coasts" />
+        <item index="3" class="java.lang.String" itemvalue="Python.caesar-cipher-decryptor" />
+        <item index="4" class="java.lang.String" itemvalue="Python.golden-pyramid" />
       </list>
     </recent_temporary>
   </component>
@@ -458,13 +479,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554796586180</updated>
-    </task>
-    <task id="LOCAL-00006" summary="next tasks">
-      <created>1556221134197</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1556221134197</updated>
     </task>
     <task id="LOCAL-00007" summary="next tasks">
       <created>1556553079777</created>
@@ -802,19 +816,25 @@
       <option name="project" value="LOCAL" />
       <updated>1569071630030</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="next tasks">
+      <created>1569075468669</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1569075468669</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-14" width="1368" height="728" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13977695" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13977695" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2789916" sideWeight="0.5144981" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33781514" sideWeight="0.48847583" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18319328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4420168" sideWeight="0.48550186" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18319328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.48550186" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54957986" sideWeight="0.49697885" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4067227" sideWeight="0.4944238" order="10" side_tool="false" content_ui="tabs" />
@@ -990,6 +1010,16 @@
           <line>4</line>
           <option name="timeStamp" value="205" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Codeship/the-nearest-square-number.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Codeship/middle-characters.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1001,12 +1031,21 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="206" />
+      <option name="time" value="209" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="string[1:2]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>string[1:2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>sorted(D_list[2])</expression-string>
         <language-id>Python</language-id>
@@ -1052,11 +1091,6 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>self.eat + ': {1}, ' + self.to_drink + ': {2}, Total: {3}'.format(self.food, self.drink, self.total_amount)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
@@ -1077,21 +1111,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ESCHER/the-buttons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ESCHER/graphical-key.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ESCHER/hypercube.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1447,18 +1466,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codeship/safe-coasts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codeship/caesar-cipher-decryptor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codeship/safe-coasts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codeship/the-nearest-square-number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codeship/middle-characters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
