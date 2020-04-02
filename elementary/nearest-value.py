@@ -6,7 +6,6 @@ if __name__ == '__main__':
     print("Example:")
     print(nearest_value({4, 7, 10, 11, 12, 17}, 9))
 
-    # These "asserts" are used for self-checking and not for an auto-testing
     assert nearest_value({4, 7, 10, 11, 12, 17}, 9) == 10
     assert nearest_value({4, 7, 10, 11, 12, 17}, 8) == 7
     assert nearest_value({4, 8, 10, 11, 12, 17}, 9) == 8
